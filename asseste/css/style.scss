@@ -1,0 +1,338 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.nav-menu {
+    justify-content: space-between;
+    padding: 20px;
+    .ong-taraf {
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #FCB72B;
+        padding: 15px 30px;
+        margin-top: -8px;
+        border: 3px solid #FFFFFF;
+        transition: color, border, background 0.5s ease;
+    }
+    .ong-taraf:hover {
+        background-color: #FFFFFF;
+        border: 3px solid #FCB72B;
+        color: #FCB72B;
+    }
+    .chapdagi-bolim {
+        h2 {
+            color: #495567;
+        }
+        a {
+            font-family: Space Mono;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939CAA;
+            margin-left: 30px;
+            margin-top: 10px;
+            transition: color 0.5s ease;
+        }
+        a:hover {
+            color: #FCB72B;
+        }
+    }
+}
+
+.tanishuv-bolimi {
+    background-image: linear-gradient(rgba(38, 19, 90, 0.6), rgba(38, 19, 90, 0.6)), url(../img/bg-2x.png);
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    h1 {
+        font-family: 'Space Mono';
+        width: 500px;
+        padding-top: 150px;
+        font-style: normal;
+        font-weight: bold;
+        margin-left: 50px;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -2.5px;
+        color: #FFFFFF;
+    }
+    p {
+        font-family: Lexend Deca;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        color: #FFFFFF;
+        width: 405px;
+        margin-left: 170px;
+        margin-top: 30px;
+    }
+    p::after {
+        content: url(../img/chiziq.svg);
+        margin-left: -440px;
+        margin-top: -40px;
+        position: absolute;
+    }
+    p::before {
+        content: url(../img/strelka-chapdan.svg);
+        margin-left: 440px;
+        width: 350px;
+        margin-top: 40px;
+        position: absolute;
+    }
+    a {
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        color: #FFFFFF;
+        padding: 15px 40px;
+        height: 58px;
+        background: #FCB72B;
+        display: inline-block;
+        margin-left: 170px;
+        margin-top: 20px;
+        margin-bottom: 150px;
+        border: 3px solid inherit;
+        transition: color, border, background 0.5s ease;
+    }
+    a:hover {
+        color: #FCB72B;
+        background-color: inherit;
+        border: 3px solid #FCB72B;
+    }
+}
+
+.kichik-korgazma {
+    background-image: url(../img/chiziq.png);
+    background-position: top 105px left -450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    div {
+        div {
+            margin-top: 65px;
+            margin-left: 55px;
+            div {
+                h4 {
+                    margin-top: 50px;
+                    font-family: Space Mono;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 24px;
+                    line-height: 28px;
+                    /* identical to box height, or 117% */
+                    letter-spacing: -1.07143px;
+                    color: #495567;
+                }
+                p {
+                    font-family: Lexend Deca;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 15px;
+                    line-height: 25px;
+                    color: #939CAA;
+                    width: 350px;
+                    margin-top: 20px;
+                }
+            }
+        }
+    }
+}
+
+.katta-menu {
+    margin-top: 150px;
+    background-image: url(../img/aylana.png), url(../img/aylana.png), url(../img/aylana.png);
+    background-repeat: no-repeat;
+    background-position: top right -300px, top 515px left -300px, bottom -20px right -300px;
+    .chap-taraf {
+        justify-content: space-around;
+        margin-bottom: 100px;
+        h2 {
+            margin-top: 60px;
+            font-family: Space Mono;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 48px;
+            line-height: 48px;
+            letter-spacing: -2.14286px;
+            color: #495567;
+            width: 445px;
+        }
+        p {
+            font-family: Lexend Deca;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939CAA;
+            width: 445px;
+            margin-top: 25px;
+            margin-bottom: 40px;
+        }
+        a {
+            font-family: Space Mono;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #FFFFFF;
+            background: #FCB72B;
+            padding: 15px 40px;
+            transition: color, border, background 0.5s ease;
+        }
+        a:hover {
+            background: #fff;
+            border: 3px solid #FCB72B;
+            color: #FCB72B;
+        }
+        img {
+            border-radius: 50%;
+            width: 420px;
+        }
+        .before-img-1::before {
+            content: url(../img/strelka-ongdan-ch.svg);
+            position: absolute;
+            margin-left: -120px;
+            margin-top: 280px;
+        }
+        .before-img-2::before {
+            content: url(../img/strelka-ch-o.svg);
+            position: absolute;
+            margin-left: -550px;
+            margin-top: 25px;
+        }
+        .before-img-3::before {
+            content: url(../img/qoshimcha.png);
+            position: absolute;
+            margin-left: 270px;
+            margin-top: 60px;
+        }
+    }
+}
+
+.abaut-qism {
+    background-color: #495567;
+    background-image: url(../img/sonngi-qisim-bg.png), url(../img/sonngi-qisim-bg.png), url(../img/ohirg-img.png);
+    background-repeat: no-repeat;
+    background-position: bottom left 480px, bottom right 240px, bottom right;
+}
+
+.about-content {
+    h1 {
+        font-family: Space Mono;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        letter-spacing: -2.14286px;
+        color: #FFFFFF;
+        width: 445px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-left: 100px;
+        margin-right: 350px;
+    }
+    a {
+        border: 1px solid#fff;
+        height: 55px;
+        margin-top: 120px;
+        margin-left: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        img {
+            color: #fff;
+            background-color: #fff;
+            width: 25px;
+            height: 30px;
+            margin: 10px 15px 0px 15px;
+        }
+        p {
+            font-family: Space Mono;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 10px;
+            line-height: 15px;
+            letter-spacing: -0.446429px;
+            color: #495567;
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+        h6 {
+            font-family: Space Mono;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 24px;
+            letter-spacing: -0.892857px;
+            color: #495567;
+            margin-top: -15px;
+            margin-right: 20px;
+        }
+    }
+}
+
+.tugatish-menusi {
+    background-color: #333A44;
+    h3 {
+        color: #fff;
+        padding: 10px;
+        margin-left: 50px;
+    }
+    .img {
+        margin-left: 700px;
+        margin-top: 20px;
+        img {
+            width: 25px;
+            height: 25px;
+            margin-right: 20px;
+        }
+        img:hover {
+            cursor: pointer;
+        }
+    }
+    .link {
+        margin-left: 20px;
+        margin-top: 7px;
+        a {
+            font-family: Space Mono;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939CAA;
+            padding: 10px;
+            transition: color 0.5s ease;
+        }
+        a:hover {
+            color: #FCB72B;
+        }
+    }
+}
