@@ -1537,6 +1537,11 @@
     .menu {
         display: block;
     }
+    .katta-menu .chap-taraf img {
+        border-radius: 50%;
+        margin-left: -30px;
+        width: 320px;
+    }
     .abaut-qism {
         background-color: #495567;
         background-image: url(../img/sonngi-qisim-bg.png), url(../img/sonngi-qisim-bg.png), url(../img/ohirg-img.png);
@@ -1551,12 +1556,11 @@
     .katta-menu .chap-taraf .before-img-3::before {
         content: url(../img/qoshimcha.png);
         position: absolute;
-        margin-left: 12%;
+        margin-left: 5%;
         margin-top: 60px;
     }
     .katta-menu {
-        margin-top: 150px;
-        background-image: url(../img/aylana.png), url(../img/aylana.png), url(../img/aylana.png);
+        background: none;
         background-repeat: no-repeat;
         background-position: top right -370px, top 870px left -370px, bottom 310px right -370px;
     }
@@ -1608,11 +1612,15 @@
         background: #FCB72B;
         display: inline-block;
         margin-top: 20px;
-        margin-left: 36%;
+        margin-left: 26%;
         margin-bottom: 150px;
         border: 3px solid inherit;
         -webkit-transition: color, border, background 0.5s ease;
         transition: color, border, background 0.5s ease;
+    }
+    .menu-text {
+        margin-left: 130px;
+        font-size: 30px;
     }
     .tanishuv-bolimi p::after {
         content: url(../img/chiziq.svg);
@@ -1637,7 +1645,7 @@
     }
     .tanishuv-bolimi p::before {
         content: url(../img/strelka-chapdan.svg);
-        margin-left: -300px;
+        margin-left: -400px;
         margin-top: 140px;
         width: 405px;
         position: absolute;
@@ -1659,7 +1667,7 @@
     .kichik-korgazma div div div h4 {
         margin-top: -100px;
         font-family: Space Mono;
-        margin-left: 50px;
+        margin-left: 20px;
         font-style: normal;
         font-weight: bold;
         font-size: 24px;
@@ -1677,21 +1685,21 @@
         color: #939CAA;
         width: 350px;
         margin-top: 20px;
-        margin-left: 50px;
+        margin-left: 20px;
     }
     .teskari {
         flex-direction: column-reverse!important;
     }
     .katta-menu .chap-taraf img {
         border-radius: 50%;
-        width: 420px;
+        width: 380px;
     }
     .katta-menu .chap-taraf {
         -ms-flex-pack: distribute;
         flex-direction: column;
         margin-bottom: 100px;
         text-align: center;
-        margin-left: 50px;
+        margin-left: 10px;
     }
     .katta-menu .chap-taraf h2 {
         margin-top: 60px;
@@ -1702,8 +1710,7 @@
         line-height: 48px;
         letter-spacing: -2.14286px;
         color: #495567;
-        width: 405px;
-        margin-left: 0px!important;
+        width: 380px;
     }
     .katta-menu .chap-taraf p {
         font-family: Lexend Deca;
@@ -1712,7 +1719,7 @@
         font-size: 15px;
         line-height: 25px;
         color: #939CAA;
-        width: 405px;
+        width: 355px;
         margin-top: 25px;
         margin-bottom: 40px;
         margin-left: 0px!important;
@@ -1742,7 +1749,7 @@
         letter-spacing: -2.14286px;
         color: #FFFFFF;
         text-align: center;
-        width: 445px;
+        width: 380px;
         padding-top: 100px;
         margin: 0 auto;
     }
@@ -1764,10 +1771,9 @@
     }
     .tugatish-menusi .img {
         flex-direction: row;
-        margin-top: 0px;
-        margin: 0 auto;
         margin-top: 10px;
         margin-bottom: 20px;
+        margin-left: 170px;
     }
     .tugatish-menusi div {
         flex-direction: column;

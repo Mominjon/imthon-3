@@ -323,7 +323,7 @@ a {
 }
 
 .menu {
-    display: none;
+    display: none!important;
 }
 
 .tugatish-menusi {
