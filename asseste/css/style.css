@@ -16,6 +16,78 @@ a {
     text-decoration: none;
 }
 
+.nav-menu-off {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.nav-menu-off .ong-taraf-off {
+    font-family: Space Mono;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FCB72B;
+    padding: 15px 30px;
+    border: 3px solid #FFFFFF;
+    -webkit-transition: color, border, background 0.5s ease;
+    transition: color, border, background 0.5s ease;
+}
+
+.nav-menu-off .ong-taraf-off:hover {
+    background-color: #FFFFFF;
+    border: 3px solid #FCB72B;
+    color: #FCB72B;
+}
+
+.nav-menu-off .chapdagi-bolim-off {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+}
+
+.nav-menu-off .chapdagi-bolim-off h2 {
+    color: #495567;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+.nav-menu-off .chapdagi-bolim-off a {
+    font-family: Space Mono;
+    font-style: normal;
+    font-weight: bold;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939CAA;
+    margin-top: 10px;
+    -webkit-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+}
+
+.nav-menu-off .chapdagi-bolim-off a:hover {
+    color: #FCB72B;
+}
+
 .nav-menu {
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
@@ -322,10 +394,6 @@ a {
     margin-right: 20px;
 }
 
-.menu {
-    display: none!important;
-}
-
 .tugatish-menusi {
     background-color: #333A44;
 }
@@ -366,6 +434,10 @@ a {
     padding: 10px;
     -webkit-transition: color 0.5s ease;
     transition: color 0.5s ease;
+}
+
+.menu {
+    display: none!important;
 }
 
 .tugatish-menusi .link a:hover {
