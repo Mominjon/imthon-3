@@ -899,7 +899,7 @@
     }
     .kichik-korgazma div div {
         margin-top: 65px;
-        margin-left: 55px;
+        margin-left: 100px;
         flex-direction: column;
     }
     .kichik-korgazma div div div img {
@@ -952,7 +952,7 @@
         letter-spacing: -2.14286px;
         color: #495567;
         width: 445px;
-        margin-left: 0px!important;
+        margin-left: 15%!important;
     }
     .katta-menu .chap-taraf p {
         font-family: Lexend Deca;
@@ -964,7 +964,7 @@
         width: 445px;
         margin-top: 25px;
         margin-bottom: 40px;
-        margin-left: 0px!important;
+        margin-left: 15%!important;
     }
     .katta-menu .chap-taraf a {
         font-family: Space Mono;
