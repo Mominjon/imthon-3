@@ -111,6 +111,16 @@ a {
     transition: color, border, background 0.5s ease;
 }
 
+.positsion {
+    margin-top: 0px;
+    position: fixed;
+    z-index: 1;
+    background-color: #FFFFFF;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .nav-menu .ong-taraf:hover {
     background-color: #FFFFFF;
     border: 3px solid #FCB72B;
